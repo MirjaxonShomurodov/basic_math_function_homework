@@ -1,5 +1,10 @@
+from math import pi
 def main():
-    '''return the value of pi
+    a=(pi)
+    return a
+print(main())
+
+'''return the value of pi
     
     Args:
         a (float): a number
@@ -7,4 +12,3 @@ def main():
     Returns:
         float: the value of pi.
     '''
-    return
