@@ -1,4 +1,5 @@
 def main(a):
+    b=round(a)
     '''Round the value of a to 2 decimal places and return it.
     
     Args:
@@ -7,4 +8,6 @@ def main(a):
     Returns:
         float: the result
     '''
-    return
+    return b
+son=main(3.4)
+print(son)
