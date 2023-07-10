@@ -1,5 +1,5 @@
 def main(a):
-    b=round(a)
+    b=round(a,2)
     '''Round the value of a to 2 decimal places and return it.
     
     Args:
@@ -9,5 +9,5 @@ def main(a):
         float: the result
     '''
     return b
-son=main(3.4)
+son=main(3.1232121)
 print(son)
