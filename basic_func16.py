@@ -1,5 +1,10 @@
 def main(a, b):
-    '''find the sum of a and b and return it.
+    javob=(a+b)
+    return javob
+son=main(5,6)
+print(son)
+
+'''find the sum of a and b and return it.
     
     Args:
         a (int): a number
@@ -8,4 +13,3 @@ def main(a, b):
     Returns:
         int: the sum.
     '''
-    return
