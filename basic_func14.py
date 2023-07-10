@@ -1,4 +1,5 @@
 def main(a, b):
+    c=(a/b)
     '''find the floor division of a and b and return it.
     
     Args:
@@ -8,4 +9,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    return c
+natija=main(16,4)
+print(natija)

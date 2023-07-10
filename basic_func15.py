@@ -1,5 +1,10 @@
 def main(a, b):
-    '''Find the remainder when a is divided by b and return it.
+    son=(a%b)
+    return son
+SON=main(11,7)
+print(SON)
+
+'''Find the remainder when a is divided by b and return it.
     
     Args:
         a (int): a number
@@ -8,4 +13,3 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
